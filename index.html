@@ -34,53 +34,35 @@
 					- みんなで「体験談、成功例、工夫していること」を共有することで、MonacaユーザーがもっとMonacaを使いやすく、Monacaを好きになれる場所を目指しています。
 				</section>
 				<section data-markdown data-background="#0e4198">
-					# 公式の情報は意外と難しい
-					- みんなが知りたいのは現実的、かつ今日使える情報
-					- 公式情報 >>>> 超えられる壁 >>>> 実案件
-					- 情報をみんなで共有し、みんなで広めていく
+					# 本日のテーマ！
+					## 先進的技術に学ぶ！
+				</section>
+				<section>
+					<section data-markdown>
+					# アジェンダ
+					|時間               | コンテンツ
+					|--------------- | ------------------------------
+					| 19:20 | このコミュニティについて
+					| 19:25 | 開始 & 参加者自己紹介タイム
+					| 19:40 | WebAssemblyでWebアプリケーションを高速化 by [@goofmint](https://twitter.com/goofmint) さん
+					| 20:00 | 休憩
 				</section>
 				<section data-markdown>
 					# アジェンダ
-					| 時間 | 内容
-					|-----|------
-					|19:20| このコミュニティについて
-					|19:30| 開始 & 参加者自己紹介タイム
-					|19:40| ハンズオン開始
-					|21:00| ハンズオン終了
-					|21:00| 懇親会
+					|時間               | コンテンツ
+					|--------------- | ------------------------------
+					| 20:05 | Web BluetoothではじめるIoT Prototype by [くらした](https://twitter.com/umi_kappa) さん
+					| 20:25 | FIDOとWebAuthnとCTAPのはなし by [@Gebo](https://twitter.com/gebogebogeboge)すずきさん
+					| 20:45 | LT × 3（現在一人…）
+					| 21:00 | 懇親会
 				</section>
+			</section>
 				<section data-markdown data-background="#0e4198">
-					# はじまる前の大事なお仕事
-				</section>
-				<section data-markdown data-background="#0e4198">
-					## とりあえず ~~🍺~~ ツイート
-					> #Monaca_UG OKAYAMA #2 に参加中！
+					# はじまる前の大事なお仕事（ツイート）
+					> #Monaca_UG TOKYO に参加中！
 				</section>
 				<section>
-					<h1>これまでの活動</h1>
-					<div id="left">
-						<table>
-							<tr>
-								<td>EVENT</td>
-								<td>10</td>
-							</tr>
-							<tr>
-								<td>SPEAKER</td>
-								<td>40</td>
-							</tr>
-							<tr>
-								<td>ATTENDEE</td>
-								<td>218</td>
-							</tr>
-							<tr>
-								<td>FACEBOOK</td>
-								<td>150</td>
-							</tr>
-						</table>
-					</div>
-					<div id="right">
-						<img src="media/branches.png" />
-					</div>
+					<h1>最近のアップデート</h1>
 				</section>
 				<section data-markdown>
 					# 公式サイト
@@ -90,11 +72,15 @@
 					# 公式（？）ショップ
 					https://suzuri.jp/MonacaUG
 				</section>
-				<section data-background-image="media/event.jpg" data-markdown>
-					# これまでの様子
+				<section data-background-image="media/techbookfest.jpg">
+					<h1>技術書典7</h1>
+					<h2>執筆者募集中！</h2>
+					技術書典6で書いた本、<span style="color:#f00">1000円</span>にて販売中！
 				</section>
-				<section data-background-image="media/calendar.png" data-markdown>
-					## アドベントカレンダー
+				<section data-background-color="#000" data-markdown>
+					# Monaca UG Conference
+					## 10月26日（予） 
+					## Save the Date! 📅
 				</section>
 				<section data-markdown data-background="#0e4198">
 					# 運営募集中！
@@ -113,8 +99,9 @@
 				</section>
 				<section data-markdown data-background="#0e4198">
 					## これからの Monaca UG
-					- OKAYAMA #2 〜初のハンズオン開催！〜 ← イマココ
-					- OSAKA #4 〜 夏のLT ×たこ焼きパーティー 〜
+					- 6月12日 Monaca UG TOKYO #9 ← イマココ
+					- 7月24日 Monaca UG OSAKA #8 アプリ事例（仮）
+					- 8月23日 Monaca UG SAPPORO #4 （仮）
 				</section>
 				<section data-markdown>
 					## こちらでぜひチェック！
@@ -124,9 +111,9 @@
 					<h1>自己紹介</h1>
 					<ul>
 						<li>お名前と所属</li>
-						<li>Monaca UGに期待するところ？</li>
+						<li>最近気になっている技術など</li>
 					</ul>
-					<iframe src="http://maruta.github.io/timekeeper/#t1=00:30&t2=00:31&t3=25:00&m=Monaca UGに期待するところ？" width="60%" height="100%"></iframe>
+					<iframe src="http://maruta.github.io/timekeeper/#t1=00:15&t2=00:31&t3=25:00&m=最近気になっている技術など" width="60%" height="100%"></iframe>
 				</section>
 			</div>
 		</div>
@@ -139,6 +126,8 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				hash: true,
+				progress: true,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
